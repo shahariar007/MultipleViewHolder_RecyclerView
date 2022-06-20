@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_font_size">@dimen/_13sdp</dimen>
+    <dimen name="body_font_size">@dimen/_10sdp</dimen>
+    <dimen name="time_font_size">@dimen/_8sdp</dimen>
+    <dimen name="hori_font_size">@dimen/_9sdp</dimen>
+</resources>

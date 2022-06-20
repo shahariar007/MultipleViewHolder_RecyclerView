@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_2sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:id="@+id/displayTitle"
+        android:padding="@dimen/_4sdp"
+        android:text="বাহাউদ্দিনকে এলাকা ছাড়ার নির্দেশ ইসি দেয়নি : সিইসি"
+        android:textSize="@dimen/header_font_size"
+        android:textStyle="bold" />
+</LinearLayout>

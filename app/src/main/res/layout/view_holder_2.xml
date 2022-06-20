@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_2sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/displayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="@dimen/_4sdp"
+        android:text="চট্টগ্রামে জলাবদ্ধতা পানিতে ঘরে আটকা মেয়র, সভা বাতিল"
+        android:textSize="@dimen/header_font_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/displayBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:padding="@dimen/_2sdp"
+        android:text="ভারী বর্ষণে চট্টগ্রাম নগরের অধিকাংশ এলাকা পানিতে তলিয়ে গেছে। আগের রাতে বৃষ্টি হলেও আজ সোমবার দুপুর পর্যন্ত নগরের বিভিন্ন এলাকায় পানি জমে আছে। জলাবদ্ধতায় ঘরবন্দী হয়ে আছেন খোদ চট্টগ্রাম সিটি করপোরেশনের মেয়র মো. রেজাউল করিম চৌধুরী। নগর ভবনে যেতে না পারায় বাতিল করা হয়েছে সাতটি বৈঠক।"
+        android:textSize="@dimen/body_font_size" />
+
+    <TextView
+        android:id="@+id/displayTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:padding="@dimen/_2sdp"
+        android:singleLine="true"
+        android:text="২ ঘন্টা আগে"
+        android:textSize="@dimen/time_font_size" />
+</LinearLayout>
